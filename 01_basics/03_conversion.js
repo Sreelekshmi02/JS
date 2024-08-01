@@ -24,3 +24,24 @@ let number = 33
 let stringNumber = String(number)
 console.log(stringNumber);         // 33
 console.log(typeof stringNumber);  // string
+
+console.log( "Hello" + "World");  //HelloWorld
+console.log( 1 + 2);    //3
+console.log("1"+2);     //12
+console.log(1+"2");     //12
+console.log("1"+2+3);   //123
+console.log(1+2+"3");   //33
+
+console.log(true);     //true
+
+console.log(+true);    // 1
+console.log(+"abc");   // NaN
+console.log(+"123");   // 123
+console.log(+false);   // 0
+console.log(+"");      // 0 
+
+let a =100;
+++a;
+console.log(a);  //101
+a++;
+console.log(a);  //102
